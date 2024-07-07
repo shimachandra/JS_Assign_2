@@ -1,6 +1,5 @@
 //Question:1   Find the FACTORIAL of N using functions
 
-
 function calculateFactorial(){
     
     var num=5,factorial=1;
@@ -8,11 +7,9 @@ function calculateFactorial(){
         factorial*=i;
     }
     console.log("Factorial of " +num + " = " +factorial);
-}
-    
+}  
 var cal=calculateFactorial();
-      
-    
+       
     
 //Question:3   Define a function expression factorial that takes one number as a parameter and returns its Factorial.
 
@@ -22,15 +19,13 @@ function Factorial(n){
         fact*=i;
     }
     console.log("Factorial of " +n + " = " +fact);
-}
-        
+}      
 var result=Factorial(10);
     
 
 //Question:2   Create an Anonymous Function that takes an Array of numbers as an argument & returns the array with each element doubled
 //             Assign this function to a variable called doubleArray.
-
-
+function a(){
 let array=[2,4,6,8,10];
 console.log("Numbers in the given Array:: "+array);
 
@@ -40,8 +35,8 @@ console.log("Numbers after Doubling: ");
 for(var i=0;i<x;i++){
     console.log(array[i]*2)
 }
-
-function array()
+}
+var doubleArray=function a();
 
 
 
